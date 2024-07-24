@@ -1,0 +1,159 @@
+.heade {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+
+}
+.propic {
+    position: absolute;
+    top: 270px;
+    left: 50px;
+    border: 5px solid white;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+.cr {
+    float: right;
+    padding-right: 190px;
+    width: 4%;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.br {
+    float: right;
+  padding-right: 900px;
+    width: 7%;
+position: absolute;
+left: 1000px;
+margin-top: -18px;
+cursor: pointer;
+
+} 
+.POST {
+    color: white;
+    display: inline-block;
+    padding-left: 420px;
+    text-align: center;
+    cursor: pointer;
+}
+.POST:hover {
+   
+    color: red;
+
+}
+.Following {
+
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    padding-left: 60px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+.Following:hover {
+    color: red;
+}
+.flower {
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    padding-left: 60px;
+    text-align: center;
+    margin-top: 80px;
+    cursor: pointer;
+} 
+.flower:hover {
+    color: red;
+}
+.name {
+    position: absolute;
+    float: right;
+    left: 250px;
+}
+.mail {
+    position: absolute;
+    float: right;
+    left: 250px; 
+    top: 350px; 
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.589);
+}
+.add {
+    background-color: rgba(216, 191, 216, 0.575);
+    position: absolute;
+    float: right;
+    left: 250px; 
+    top: 390px; 
+    box-sizing: border-box;
+    width: 300px;
+    cursor: pointer;
+    font-size: 25px
+}
+.add:hover {
+    background-color: red;
+    color: white;
+
+}
+.fact {
+    position: absolute;
+    float: right;
+    left: 330px; 
+    top: 420px; 
+    box-sizing: border-box;
+    width: 300px;
+}
+.p1 {
+    width: 20%;
+    height: 200px;
+    border: 5px solid;
+    position: absolute;
+    top: 600px;
+    display: inline-block;
+    color: green;
+}
+.p1:hover {
+    background-color:black;
+    color: red;
+}
+.p2 {
+    width: 20%;
+    height: 200px;
+    border: 5px solid;
+    position: absolute;
+    top: 600px;
+    left: 300px;
+    display: inline-block;
+    color: aqua;
+}
+.p2:hover{
+    color: rebeccapurple;
+    background-color: rebeccapurple;
+}
+.p3 {
+    width: 20%;
+    height: 200px;
+    border: 5px solid;
+    position: absolute;
+    top: 600px;
+    left: 590px;
+    display: inline-block;
+    color: green;
+}
+.p3:hover {
+    color: red;
+}
+.P4 {
+    width: 20%;
+    height: 200px;
+    border: 5px solid;
+    position: absolute;
+    top: 600px;
+    left: 880px;
+    display: inline-block;
+    color: green;
+}
+.P4:hover {
+    color: navy;
+}

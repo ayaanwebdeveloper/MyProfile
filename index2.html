@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 400px;
+            height: 500px;
+            border: 5px solid;
+            padding: 50px;
+            font-size: 32px;
+            margin: 0% auto;
+        }
+        #name {
+            width: 400px;
+        }
+        #last {
+            width: 400px;
+        }
+        .b {
+            width: 300px;
+            margin-top: 30px;
+            margin-left: 50px;
+            color: white;
+            background-color: black;
+            height: 50px;
+            border-radius: 20px;
+            font-size: 26px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .b:hover {
+            background-color: green;
+            color: white;
+
+        }
+    </style>
+</head>
+<body>
+
+    <div class="all">
+        <center>
+            <h1 class="w">Edit Profile</h1>
+        </center>
+<label for="name">First Name <br>
+    <input type="text" name="" id="name">
+</label><br><br>
+<label for="last">
+    Last Name  <input type="text" name="" id="last">
+</label><br><br>
+<label for="ge">
+    Gender:
+    <select name="" id="ge">
+        <option value="select" disabled selected >Select Your Gender</option>
+        <option value="male">Male</option>
+   <option value="Female">Female</option>
+    </select>
+</label><br>
+<a href="index.html"><button class="b">Change Profile</button></a>
+    </div>
+</body>
+</html>
